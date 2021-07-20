@@ -1,0 +1,4 @@
+- by: xpath
+  locator: "//*[@resource-id='com.xueqiu.android:id/tab_name' and @text='行情']"
+  action: click
+
