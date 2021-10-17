@@ -2,7 +2,6 @@
 # encoding: utf-8
 from appium import webdriver
 from project_test.page.basepage import BasePage
-from project_test.page.main import Main
 
 
 class App(BasePage):
@@ -24,5 +23,6 @@ class App(BasePage):
             self._driver.start_activity(_appActivity, _appPackage)
         return self
 
-    def main(self):
-        return Main(self._driver)
+    def stop(self):
+        self._driver.quit()
+
