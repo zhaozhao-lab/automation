@@ -1,0 +1,5 @@
+search:
+  - send_keys: alibaba
+  - send_keys: baidu
+  - send_keys: nihao
+

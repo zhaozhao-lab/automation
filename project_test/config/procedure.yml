@@ -1,0 +1,7 @@
+search:
+  - id: home_search
+  - click: click
+  - id: search_input_text
+  - send_keys: niahoa
+  - id: name
+  - click: click
